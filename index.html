@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- HTML : APP24/MOB -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+body {
+padding:0;
+margin:0;
+user-select:none;
+list-style:none;
+background:#fff;
+}
+h3 {
+text-align:right;
+padding-right:18px;
+padding-top:3px;
+font-size:medium;
+font-weight:#200;
+font-family: 'Readex Pro', sans-serif;
+margin:0;
+}
+header {
+background:#26ab56;
+padding:2px 12px;
+color:#fff;
+margin-bottom:10px;
+position:fixed;
+top:0;
+height:60px;
+width:100%;
+box-shadow: 0px 0px 7px black;
+z-index:1;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-sizing:border-box;
+}
+#refresh-btn {
+background:rgba(255, 255, 255, 0.18);
+border:1px solid rgba(255, 255, 255, 0.45);
+color:#fff;
+border-radius:8px;
+padding:6px 12px;
+font-size:14px;
+font-family:'Readex Pro', 'Cairo', sans-serif;
+cursor:pointer;
+display:inline-flex;
+align-items:center;
+gap:6px;
+}
+#refresh-btn:active {
+background:rgba(255, 255, 255, 0.32);
+}
+#i1{
+position:fixed;
+top:21px;
+right:17px;
+font-size:40px;
+}
+#i2{
+position:fixed;
+top:21px;
+left:14px;
+font-size:40px;
+}
+#i3{
+position:fixed;
+top:16px;
+left:40px;
+font-size:40px;
+}
+img {
+width:30px
+}
+#page:hover {
+background:none;
+}
+#page {
+margin-top:75px;
+width:98%;
+padding-right:4px;
+padding-left:2px;
+}
+#page a:hover {
+background:#111;
+}
+#page a {
+width:110px;
+border:2px solid #2ecb66;
+height:120px;
+display:inline-block;
+border-radius:8px;
+margin-bottom:10px;
+text-decoration:none;
+position: relative;
+overflow: hidden;
+}
+#page a img {
+height:120px;
+margin-right:0px;
+width:100%;
+border-radius:8px;
+}
+#page a .episode-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 0, 0);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 4px 0;
+    margin: 0;
+}
+</style>
+</head>
+<!-- BY MoCreators -->
+<body dir="rtl">
+<header>
+<h3>Star Cenima</h3>
+<button id="refresh-btn" type="button" onclick="refreshPage()" title="تحديث الصفحة">
+  <i id="refresh-icon" class="fa fa-refresh" aria-hidden="true"></i>
+  <span>تحديث</span>
+</button>
+</header>
+<!-- BY MoCreators -->
+<div id="page">
+
+<a href="go:zhimr1" >
+    <img src="https://d.top4top.io/p_3801dqa191.jpg" >
+    <div class="episode-title">زهايمر2010</div>
+</a>
+
+<a href="go:bobos1" >
+    <img src="https://e.top4top.io/p_380129cpn2.jpg" >
+    <div class="episode-title">بوبوس2009</div>
+</a>
+
+<a href="go:hasnmor1" >
+    <img src="https://f.top4top.io/p_3801oi1ke3.jpg" >
+    <div class="episode-title">حسن ومرقص2008</div>
+</a>
+
+<a href="go:morgan1" >
+    <img src="https://h.top4top.io/p_3859fonvc3.jpg" >
+    <div class="episode-title">مرجان 2007</div>
+</a>
+
+<a href="go:omaraa1" >
+    <img src="https://i.ibb.co/C3vQR1YX/p-38599yple2.jpg" >
+    <div class="episode-title">عمارة يعقوبيان2006</div>
+</a>
+
+<a href="go:elsfara1" >
+    <img src="https://f.top4top.io/p_3859arj451.jpg" >
+    <div class="episode-title">السفارة في العمارة2005</div>
+</a>
+
+<a href="go:arees1" >
+    <img src="https://i.ibb.co/ZRpYWqC8/150x200-32fc5d63afae82a550ad68849056f3a035507e4ca8319fad289edd07b2711e75.jpg" >
+    <div class="episode-title">عريس من جهة امنية</div>
+</a>
+
+<a href="go:tgrba1" >
+    <img src="https://i.ibb.co/84csq9X9/150x200-37d39a80e23a71911b438b8d07e3822934560da202381c37b443ffeb3d55eea5.jpg" >
+    <div class="episode-title">التجربة الدنماركية</div>
+</a>
+
+<a href="go:amir1" >
+    <img src="https://i.ibb.co/9DJKcvY/320x-f223f5a0934ca79e30da5985e6d23064a720b15f07388c126ef7f1410898c53f.jpg" >
+    <div class="episode-title">امير الظلام</div>
+</a>
+
+<a href="go:haloamr1" >
+    <img src="https://i.ibb.co/x8PMGkG6/150x200-371da4389b187dcaddad7ede71af038ec329f0cf8d65ba72168fb103cf6ed795.jpg" >
+    <div class="episode-title">هاللو امريكا</div>
+</a>
+
+<a href="go:beket2" >
+    <img src="https://i.ibb.co/sdYd814Q/150x200-e6b736d2d45bb4b189195a9ac7f6bba3d0cb2a8ee16154ea1bc07df5c7970a2d.jpg" >
+    <div class="episode-title">بخيت وعديلى 2</div>
+</a>
+
+<a href="go:mahros1" >
+    <img src="https://i.ibb.co/C5F3n0JT/150x200-bef764e993348284de4763870f63e40dc7c4ea4f5e5121425776d9e8cb7dbc1a.jpg" >
+    <div class="episode-title">الواد محروس بتاع الوزير</div>
+</a>
+
+<a href="go:resala1" >
+    <img src="https://i.ibb.co/8ncyWmVB/150x200-53066e78a952deae29bbb33f19c8ba0f21518a050af5d26316944ef2e5376cd9.jpg" >
+    <div class="episode-title">رسالة الي الوالي </div>
+</a>
+
+<a href="go:nomfi1" >
+    <img src="https://i.ibb.co/x8FN0d8n/image.png" >
+    <div class="episode-title">النوم في العسل</div>
+</a>
+
+<a href="go:diyor1" >
+    <img src="https://i.ibb.co/DdC3t6Y/150x200-b08cebf6e7214542f70d06188253ea9dc6e10ae4bb5bbdd3c2845f91ae49f0f1.jpg" >
+    <div class="episode-title">طيور الظلام</div>
+</a>
+
+<a href="go:bekitt1" >
+    <img src="https://i.ibb.co/h1d3VXwB/150x200-1c6b7de00e12456aa7f39fde129badf55bd6796d30815bdc9b09e8cc7081468b.jpg" >
+    <div class="episode-title">بخيت وعديلة</div>
+</a>
+
+<a href="go:erhabi1" >
+    <img src="https://i.ibb.co/fVFW9ynC/150x200-a68ad54189711ce43f0a851b70f8e05ce3b6d10b18b797c4edfb6f7995ab3994.jpg" >
+    <div class="episode-title">الارهابي</div>
+</a>
+
+<a href="go:mansi1" >
+    <img src="https://i.ibb.co/gF9gML6S/150x200-990b84c7e2647a37b0b487ab16d0266df44ecaca0fcfb7fd44c362150b70c813.jpg" >
+    <div class="episode-title">المنسي</div>
+</a>
+
+<a href="go:shams1" >
+    <img src="https://i.ibb.co/gLjx4B2n/p-3765mmeh49.jpg" >
+    <div class="episode-title">شمس الزناتي</div>
+</a>
+
+<a href="go:lsos1" >
+    <img src="https://j.top4top.io/p_37656milh8.jpg" >
+    <div class="episode-title">لصوص لكن ظرفاء</div>
+</a>
+
+<a href="go:slamsa1" >
+    <img src="https://i.ibb.co/7cqcHrV/p-3765pp5pg7.jpg" >
+    <div class="episode-title">سلام يا صحبي</div>
+</a>
+
+<a href="go:mosgl1" >
+    <img src="https://h.top4top.io/p_3765wiuo26.jpg" >
+    <div class="episode-title">مسجل خطر</div>
+</a>
+
+<a href="go:elmold1" >
+    <img src="https://i.ibb.co/wNzVD3gp/p-3765pgo365.jpg" >
+    <div class="episode-title">المولد</div>
+</a>
+
+<a href="go:elmshb1" >
+    <img src="https://f.top4top.io/p_3765o4vr51.jpg" >
+    <div class="episode-title">المشبوة</div>
+</a>
+
+<a href="go:gizera1" >
+    <img src="https://f.top4top.io/p_3765rq84o4.jpg" >
+    <div class="episode-title">جزيرة الشيطان</div>
+</a>
+
+<a href="go:minfian1" >
+    <img src="https://b.top4top.io/p_3789fdkrw1.jpg" >
+    <div class="episode-title">مين فينا الحرامي</div>
+</a>
+
+<a href="go:shanan1" >
+    <img src="https://d.top4top.io/p_3765vqcty2.jpg" >
+    <div class="episode-title">شعبان تحت الصفر</div>
+</a>
+
+<a href="go:elmorswl1" >
+    <img src="https://i.ibb.co/0yB7B2ZQ/p-3765j4vd51.jpg" >
+    <div class="episode-title">المتسول</div>
+</a>
+
+<a href="go:ihtars1" >
+    <img src="https://j.top4top.io/p_37654glam6.jpg" >
+    <div class="episode-title">احترس من الخط</div>
+</a>
+
+<a href="go:ebahsan1" >
+    <img src="https://i.ibb.co/7tYJ5mmV/p-3765vens05.jpg" >
+    <div class="episode-title">البحث عن فضيحة</div>
+</a>
+
+<a href="go:hanifi1" >
+    <img src="https://upload.wikimedia.org/wikipedia/ar/6/64/Hanafy_al-obaha_Poster.jpg" >
+    <div class="episode-title">حنفي الابهة</div>
+</a>
+
+<a href="go:ramdfg1" >
+    <img src="https://h.top4top.io/p_3765t0own4.jpg" >
+    <div class="episode-title">رمضان فوق البركان</div>
+</a>
+
+<a href="go:elnmar1" >
+    <img src="https://i.ibb.co/Kp3j8gm2/p-37650w8ys3.jpg" >
+    <div class="episode-title">النمر ولانثي</div>
+</a>
+
+<a href="go:ragfog1" >
+    <img src="https://f.top4top.io/p_3765vh8od2.jpg" >
+    <div class="episode-title">رجب فوق صفيح</div>
+</a>
+
+<a href="go:elhafot1" >
+    <img src="https://i.ibb.co/1t2Mdt8r/p-3789245d62.jpg" >
+    <div class="episode-title">الهلفوت</div>
+</a>
+
+</div>
+
+<script>
+  function refreshPage() {
+    var icon = document.getElementById("refresh-icon");
+    if (icon) {
+      icon.classList.add("fa-spin");
+    }
+    window.location.reload();
+  }
+
+  // تحديث تلقائي كل 10 ثواني
+  setInterval(function () {
+    refreshPage();
+  }, 10000);
+</script>
+</body>
+</html>
